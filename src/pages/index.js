@@ -6,7 +6,29 @@ export default function Home() {
   return (
     <div className="container">
       <header>
-        <img src="/logo.png" alt="Mailmind" className="logo" />
+        {/* Embedded SVG Logo */}
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 200 50" 
+          className="logo"
+          style={{ height: "60px" }}
+        >
+          <path 
+            d="M20 10 L40 10 L40 30 L20 30 Z M45 10 L65 10 L65 30 L45 30 Z M25 15 L35 25 M60 15 L50 25" 
+            fill="#2563EB" 
+          />
+          <text 
+            x="75" 
+            y="35" 
+            fontFamily="Arial" 
+            fontSize="32" 
+            fontWeight="bold" 
+            fill="#2563EB"
+          >
+            Mailmind
+          </text>
+        </svg>
+
         <h1>Mailmind</h1>
         <p>AI Email Assistant for Busy Entrepreneurs</p>
         <button className="cta">Get Chrome Extension</button>
