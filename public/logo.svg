@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <style>
+    .text { font: bold 32px Arial; fill: #2563EB; }
+    .icon { fill: #2563EB; }
+  </style>
+  <path class="icon" d="M20 10 L40 10 L40 30 L20 30 Z M45 10 L65 10 L65 30 L45 30 Z M25 15 L35 25 M60 15 L50 25"/>
+  <text class="text" x="75" y="35">Mailmind</text>
+</svg>
