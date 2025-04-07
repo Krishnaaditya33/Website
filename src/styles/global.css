@@ -1,0 +1,57 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #1e40af;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, var(--secondary), var(--primary));
+  color: white;
+}
+
+.logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background: white;
+  color: var(--primary);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(255,255,255,0.95);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.hint {
+  background: rgba(255,255,255,0.9);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
