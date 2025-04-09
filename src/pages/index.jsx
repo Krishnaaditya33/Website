@@ -1,5 +1,5 @@
 // pages/index.jsx
-import FAQ from '@/components/Landing/FAQ/index';
+import FAQ from '@/components/Landing/FAQ';
 
 // In your Home component
 export default function Home() {
