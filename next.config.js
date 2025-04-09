@@ -4,4 +4,10 @@ const nextConfig = {
   swcMinify: true,
 };
 
+module.exports = {
+  experimental: {
+    forceSwcTransforms: false // Disable SWC
+  }
+};
+
 module.exports = nextConfig;
